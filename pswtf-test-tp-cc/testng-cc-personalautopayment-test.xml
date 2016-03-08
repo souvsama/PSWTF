@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ClaimCenter Personal Auto Settlement Example" verbose="1">
+    <test name="Claim Payment Smoke Test">
+        <groups>
+            <run>
+                <include name="personal-auto-claim"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.guidewire.pstesting.claimcenter.testcase"/>
+        </packages>
+    </test>
+</suite>

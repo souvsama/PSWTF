@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <contact-manager>
+        <retry try-for="2m" wait-between-tries="5s"/>
+        <verify-account all="true"/>
+    </contact-manager>
+</test-data>

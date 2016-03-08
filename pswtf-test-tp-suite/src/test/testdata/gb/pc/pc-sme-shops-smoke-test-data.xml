@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="sstone" password="gw"/>
+    <policy-center>
+        <sme-shops id="smeshopsPolicy1" account-id="companyAccount1">
+            <offering name="${smeshops.offering.premium}"/>
+            <policy-info organization-type="${organization.type.corporationPublic}"/>
+            <locations>
+                <location address1="25 Catherine Street"
+                          city="${city.london}"
+                          postcode="WC2B 5JS"
+                          asbestos="false"
+                          trade-code="B566 B71">
+                    <coverages>
+                        <building amount="35,000" rental-income-loss="25,000"/>
+                    </coverages>
+                </location>
+            </locations>
+        </sme-shops>
+    </policy-center>
+</test-data>

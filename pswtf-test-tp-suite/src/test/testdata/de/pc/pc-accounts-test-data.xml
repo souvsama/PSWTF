@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <policy-center>
+        <accounts>
+            <account id="personAccount1"
+                     type="person"
+                     country="${country.de}"
+                     first-name="Ernst"
+                     last-name="Abbe - ${timestamp}"
+                     address1="Isartorplatz 10"
+                     city="${city.munich}"
+                     postalcode="80331"
+                     address-type="${account.addressType.home}"
+                     organization="Allgemeine Versicherungs AG"
+                     producer-code="100-002641"/>
+        </accounts>
+    </policy-center>
+</test-data>

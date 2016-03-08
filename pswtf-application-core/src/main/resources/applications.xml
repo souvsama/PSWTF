@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<applications>
+    <application name="PolicyCenter" port="8180" folder-name="pc"/>
+    <application name="ClaimCenter" port="8080" folder-name="cc"/>
+    <application name="BillingCenter" port="8580" folder-name="bc"/>
+    <application name="ContactManager" port="8280" folder-name="ab"/>
+</applications>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PSWebTestFramework.iml" filepath="$PROJECT_DIR$/PSWebTestFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-application-core/pswtf-application-core.iml" filepath="$PROJECT_DIR$/pswtf-application-core/pswtf-application-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-application-ootb-bc/pswtf-application-ootb-bc.iml" filepath="$PROJECT_DIR$/pswtf-application-ootb-bc/pswtf-application-ootb-bc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-application-ootb-cc/pswtf-application-ootb-cc.iml" filepath="$PROJECT_DIR$/pswtf-application-ootb-cc/pswtf-application-ootb-cc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-application-ootb-cm/pswtf-application-ootb-cm.iml" filepath="$PROJECT_DIR$/pswtf-application-ootb-cm/pswtf-application-ootb-cm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-application-ootb-pc/pswtf-application-ootb-pc.iml" filepath="$PROJECT_DIR$/pswtf-application-ootb-pc/pswtf-application-ootb-pc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-application-tp-cc/pswtf-application-tp-cc.iml" filepath="$PROJECT_DIR$/pswtf-application-tp-cc/pswtf-application-tp-cc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-application-tp-pc/pswtf-application-tp-pc.iml" filepath="$PROJECT_DIR$/pswtf-application-tp-pc/pswtf-application-tp-pc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-test-core/pswtf-test-core.iml" filepath="$PROJECT_DIR$/pswtf-test-core/pswtf-test-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-test-tp-bc/pswtf-test-tp-bc.iml" filepath="$PROJECT_DIR$/pswtf-test-tp-bc/pswtf-test-tp-bc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-test-tp-cc/pswtf-test-tp-cc.iml" filepath="$PROJECT_DIR$/pswtf-test-tp-cc/pswtf-test-tp-cc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-test-tp-cm/pswtf-test-tp-cm.iml" filepath="$PROJECT_DIR$/pswtf-test-tp-cm/pswtf-test-tp-cm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-test-tp-core/pswtf-test-tp-core.iml" filepath="$PROJECT_DIR$/pswtf-test-tp-core/pswtf-test-tp-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-test-tp-pc/pswtf-test-tp-pc.iml" filepath="$PROJECT_DIR$/pswtf-test-tp-pc/pswtf-test-tp-pc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pswtf-test-tp-suite/pswtf-test-tp-suite.iml" filepath="$PROJECT_DIR$/pswtf-test-tp-suite/pswtf-test-tp-suite.iml" />
+    </modules>
+  </component>
+</project>

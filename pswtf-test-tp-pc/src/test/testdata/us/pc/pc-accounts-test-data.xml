@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <policy-center>
+        <accounts>
+            <!---->
+            <account id="personAccount1"
+                     type="person"
+                     first-name="Foo"
+                     last-name="Bar - ${timestamp}"
+                     address1="1 Main St."
+                     city="${city.fosterCity}"
+                     state="${state.california}"
+                     address-type="${account.addressType.home}"
+                     organization="Enigma Fire &amp; Casualty"
+                     producer-code="INT-3 Internal Producer Code - 3"/>
+
+            <account id="personAccount2"
+                     type="person"
+                     first-name="Bob"
+                     last-name="Rabbit - ${timestamp}"
+                     home-phone="650-555-1212"
+                     address1="453 Easy St."
+                     city="${city.fosterCity}"
+                     state="${state.california}"
+                     address-type="${account.addressType.home}"
+                     organization="Enigma Fire &amp; Casualty"
+                     producer-code="INT-3 Internal Producer Code - 3"/>
+            <!---->
+            <account id="companyAccount1"
+                     type="company"
+                     company-name="FooBar Co - ${timestamp}"
+                     address1="123 Unicorn Way"
+                     city="${city.fosterCity}"
+                     state="${state.california}"
+                     address-type="${account.addressType.business}"
+                     organization="Enigma Fire &amp; Casualty"
+                     producer-code="INT-3 Internal Producer Code - 3">
+            </account>
+
+        </accounts>
+    </policy-center>
+</test-data>

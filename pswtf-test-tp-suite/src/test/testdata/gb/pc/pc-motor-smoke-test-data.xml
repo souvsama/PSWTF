@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <policy-center>
+        <motor id="motorPolicy1" account-id="personAccount1">
+            <offering name="${gbPersonalAuto.offering.comprehensive}"/>
+            <drivers>
+                <driver account-holder="true"
+                        dob="01/01/1970"
+                        sex="${sex.male}"
+                        license-number="GARDN605109C99LY60"
+                        license-start-date="01/01/2000"
+                        number-accidents-policy-level="0"
+                        number-accidents-account-level="0"
+                        number-violations-policy-level="0"
+                        number-violations-account-level="0"/>
+            </drivers>
+            <vehicles>
+                <vehicle lookup="true"
+                         license-plate="A1"
+                         vehicle-group="1"
+                         garage-type="${gbPersonalAuto.garageType.attached}"
+                         cost-new="25000"
+                         equipment-value="5000"
+                         annual-mileage="35000"
+                         primary-use="${gbPersonalAuto.primaryUse.pleasure}">
+                    <drivers>
+                        <driver account-holder="true"
+                                usage="100"/>
+                    </drivers>
+                </vehicle>
+            </vehicles>
+        </motor>
+    </policy-center>
+</test-data>

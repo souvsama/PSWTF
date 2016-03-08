@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PolicyCenter Commercial Auto Example" verbose="1">
+    <listeners>
+        <listener class-name="com.guidewire.pstesting.Listener"></listener>
+    </listeners>
+    <parameter name="username" value="aapplegate" />
+    <parameter name="password" value="gw" />
+    <test name="Smoke Test">
+        <classes>
+            <class name="com.guidewire.pstesting.policycenter.testcase.CommercialAutoLOBTest"/>
+        </classes>
+    </test>
+</suite>

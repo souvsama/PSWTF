@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <policy-center>
+        <homeowners id="homeownersPolicy1" account-id="personAccount1">
+            <user username="bbaker" password="gw"/>
+            <qualifications policy-type="${homeowners.policyType.homeowners}">
+                <questions set="0">
+                    <question message="${questionSet.homeowners.question.coverageDeclined}" answer="no"/>
+                    <question message="${questionSet.homeowners.question.businessConducted}" answer="no"/>
+                </questions>
+            </qualifications>
+            <dwelling>
+                <details distance-to-fire-hydrant="50"
+                         distance-to-fire-station="5"
+                         flood-fire-hazard="false"
+                         within-commercial-property="false"
+                         roomers-boarders="false"
+                         fire-wood-stove="false"
+                         swimming-pool="false"
+                         trampoline="false"
+                         water-leakage="false"
+                         any-animals="false"/>
+                <protection location-type="In City Limits"
+                            fire-extinguisher="true"
+                            burglar-alarm="true"
+                            burglar-alarm-type="Local"
+                            fire-alarm-reporting-center="true"
+                            smoke-alarms="true"
+                            smoke-alarms-all-floors="true"
+                            sprinkler-system-type="None"
+                            deadbolts="true"
+                            number-of-deadbolts="3"
+                            residence-visible="true"/>
+                <construction year-built="1999"
+                              construction-type="Frame"
+                              number-of-stories="2"
+                              square-footage="1921"
+                              garage="Attached Garage - 2 Car"
+                              foundation-type="Slab"
+                              roof-type="Tile Clay"
+                              primary-heating-type="Gas"
+                              plumbing="Copper"
+                              wiring="Copper"
+                              electrical-system="${questionSet.homeowners.electricalSystem.choice.circuitBreaker}"
+                              number-of-amps="100"
+                              wind-class="${questionSet.homeowners.windRating.choice.ordinaryConstruction}"
+                              construction-class-code="123"/>
+            </dwelling>
+            <coverages>
+                <homeowners-dwelling limit="30,000"/>
+            </coverages>
+        </homeowners>
+
+        <homeowners id="homeownersPolicy2" account-id="personAccount2">
+            <qualifications policy-type="${homeowners.policyType.renters}">
+                <questions set="0">
+                    <question message="${questionSet.homeowners.question.coverageDeclined}" answer="no"/>
+                    <question message="${questionSet.homeowners.question.businessConducted}" answer="no"/>
+                </questions>
+                <questions set="1">
+                    <question message="${questionSet.homeowners.question.manager}" answer="yes"/>
+                    <question message="${questionSet.homeowners.question.attendant}" answer="yes"/>
+                    <question message="${questionSet.homeowners.question.entranceLocked}" answer="yes"/>
+                </questions>
+            </qualifications>
+            <dwelling>
+                <details distance-to-fire-hydrant="10"
+                         distance-to-fire-station="25"
+                         flood-fire-hazard="false"
+                         within-commercial-property="false"
+                         roomers-boarders="false"
+                         trampoline="false"
+                         any-animals="false"/>
+                <protection location-type="In City Limits"
+                            fire-extinguisher="true"
+                            burglar-alarm="true"
+                            burglar-alarm-type="Local"
+                            fire-alarm-reporting-center="true"
+                            smoke-alarms="true"
+                            smoke-alarms-all-floors="true"
+                            sprinkler-system-type="None"
+                            deadbolts="true"
+                            number-of-deadbolts="3"
+                            residence-visible="true"/>
+                <construction year-built="1999"
+                              construction-type="Frame"
+                              number-of-stories="2"
+                              roof-type="Tile Clay"/>
+            </dwelling>
+        </homeowners>
+
+        <homeowners id="homeownersPolicy3" account-id="personAccount1">
+            <qualifications policy-type="${homeowners.policyType.condominium}">
+                <questions set="0">
+                    <question message="${questionSet.homeowners.question.coverageDeclined}" answer="no"/>
+                    <question message="${questionSet.homeowners.question.businessConducted}" answer="no"/>
+                </questions>
+                <questions set="1">
+                    <question message="${questionSet.homeowners.question.manager}" answer="yes"/>
+                    <question message="${questionSet.homeowners.question.attendant}" answer="yes"/>
+                    <question message="${questionSet.homeowners.question.entranceLocked}" answer="yes"/>
+                </questions>
+            </qualifications>
+            <dwelling>
+                <details distance-to-fire-hydrant="10"
+                         distance-to-fire-station="25"
+                         flood-fire-hazard="false"
+                         within-commercial-property="false"
+                         roomers-boarders="false"
+                         trampoline="false"
+                         any-animals="false"/>
+                <protection location-type="In City Limits"
+                            fire-extinguisher="true"
+                            burglar-alarm="true"
+                            burglar-alarm-type="Local"
+                            fire-alarm-reporting-center="true"
+                            smoke-alarms="true"
+                            smoke-alarms-all-floors="true"
+                            sprinkler-system-type="Full"
+                            deadbolts="true"
+                            number-of-deadbolts="3"
+                            residence-visible="true"/>
+                <construction year-built="1999"
+                              construction-type="Frame"
+                              number-of-stories="2"
+                              roof-type="Tile Clay"
+                              secondary-heating="false"/>
+            </dwelling>
+        </homeowners>
+
+        <homeowners id="homeownersPolicy4" account-id="personAccount2">
+            <qualifications policy-type="${homeowners.policyType.fireDwelling}">
+                <questions set="0">
+                    <question message="${questionSet.homeowners.question.coverageDeclined}" answer="no"/>
+                    <question message="${questionSet.homeowners.question.businessConducted}" answer="no"/>
+                </questions>
+            </qualifications>
+            <dwelling>
+                <details distance-to-fire-hydrant="50"
+                         distance-to-fire-station="5"
+                         flood-fire-hazard="false"
+                         within-commercial-property="false"
+                         roomers-boarders="false"
+                         fire-wood-stove="false"
+                         swimming-pool="false"
+                         trampoline="false"
+                         water-leakage="false"
+                         any-animals="false"/>
+                <protection location-type="In City Limits"
+                            fire-extinguisher="true"
+                            burglar-alarm="true"
+                            burglar-alarm-type="Local"
+                            fire-alarm-reporting-center="false"
+                            smoke-alarms="true"
+                            smoke-alarms-all-floors="true"
+                            sprinkler-system-type="None"
+                            deadbolts="true"
+                            number-of-deadbolts="4"
+                            residence-visible="false"/>
+                <construction year-built="2002"
+                              construction-type="Frame"
+                              number-of-stories="1"
+                              square-footage="2300"
+                              garage="Attached Garage - 1 Car"
+                              foundation-type="Slab"
+                              roof-type="Tile Clay"
+                              primary-heating-type="Gas"
+                              plumbing="Copper"
+                              wiring="Copper"
+                              electrical-system="${questionSet.homeowners.electricalSystem.choice.circuitBreaker}"
+                              number-of-amps="125"
+                              wind-class="${questionSet.homeowners.windRating.choice.ordinaryConstruction}"
+                              construction-class-code="239"/>
+            </dwelling>
+            <coverages>
+                <fire-dwelling limit="10,000"/>
+            </coverages>
+        </homeowners>
+
+    </policy-center>
+</test-data>

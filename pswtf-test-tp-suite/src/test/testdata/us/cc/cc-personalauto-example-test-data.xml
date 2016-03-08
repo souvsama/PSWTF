@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <claim-center>
+        <personal-auto-claim last-name="Rabbit - 1425548650424" loss-date="03/05/2015">
+            <information reported-by="Bob Rabbit - 1425548650424"
+                         relation-to-insured="${reportedByType.self}">
+                <contact home-phone=""
+                         mobile-phone=""/>
+            </information>
+            <loss-detail description="Smashed in to a tree to avoid a dog."
+                         cause="${lossCause.objectCollision}"
+                         location="453 Easy St., Foster City, CA 94404"
+                         city="${city.fosterCity}"
+                         fault-rating="${faultRating.noFault}"/>
+            <reserve-detail exposure="(1) 1st Party Vehicle"
+                            cost-type="Claim Cost"
+                            cost-category="Other"
+                            reserve-amount="200"/>
+            <payment-detail category="Other"
+                            amount="100"/>
+        </personal-auto-claim>
+    </claim-center>
+</test-data>

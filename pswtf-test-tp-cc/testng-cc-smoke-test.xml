@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ClaimCenter Suite" verbose="1">
+    <test name="Smoke Test">
+        <groups>
+            <run>
+                <include name="cc-smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.guidewire.pstesting.claimcenter.testcase"/>
+        </packages>
+    </test>
+</suite>

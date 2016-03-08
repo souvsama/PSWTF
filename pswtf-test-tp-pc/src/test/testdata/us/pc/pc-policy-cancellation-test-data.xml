@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <policy-center>
+        <policies>
+            <business-auto id="businessAutoPolicy1" account-id="companyAccount1">
+                <cancellation
+                        account-name="Calloway Cheese Factory"
+                        policy-number="7832494669"
+                        cancellation-source="${cancelPolicy.source.insured}"
+                        cancellation-reason="${cancelPolicy.reason.insuredReqNOC}"
+                        refund-method="Short rate"
+                        effective-date=""
+                        reason-description="Not what the customer wanted"
+                        />
+            </business-auto>
+        </policies>
+    </policy-center>
+</test-data>

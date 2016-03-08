@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ContactManager Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.guidewire.pstesting.Listener"></listener>
+    </listeners>
+    <parameter name="username" value="aapplegate" />
+    <parameter name="password" value="gw" />
+    <test name="Example Smoke Test">
+        <classes>
+            <class name="com.guidewire.pstesting.contactmanager.testcase.AccountVerificationTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <policy-center>
+        <personal-auto id="personalAutoPolicy1" account-id="personAccount2">
+            <drivers>
+                <driver account-holder="true"
+                        dob="01/01/1970"
+                        mobile-phone="201-555-0123"
+                        license-number="C0008729"
+                        license-state="${state.california}"
+                        year-first-licensed="1985"
+                        number-accidents-policy-level="0"
+                        number-accidents-account-level="0"
+                        number-violations-policy-level="0"
+                        number-violations-account-level="0"/>
+            </drivers>
+            <vehicles>
+                <vehicle license-state="${state.california}"
+                         cost-new="25000"
+                         vin="1">
+                    <drivers>
+                        <driver account-holder="true"
+                                usage="100"/>
+                    </drivers>
+                </vehicle>
+            </vehicles>
+        </personal-auto>
+    </policy-center>
+</test-data>

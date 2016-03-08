@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <claim-center>
+        <!--  -->
+        <personal-auto-claim last-name="Farley" loss-date="${todaysdate}:MM/dd/yyyy">
+            <information reported-by="Robert Farley"
+                         relation-to-insured="${reportedByType.self}">
+                <contact home-phone=""
+                         mobile-phone=""/>
+            </information>
+            <loss-detail description="Smashed in to a tree to avoid a dog."
+                         cause="${lossCause.objectCollision}"
+                         location="503 2nd Ave.,San Diego, CA 92101"
+                         city="San Diego"
+                         fault-rating="${faultRating.noFault}"/>
+            <reserve-detail exposure="(1) 1st Party Vehicle"
+                            cost-type="Claim Cost"
+                            cost-category="Other"
+                            reserve-amount="200"/>
+            <payment-detail category="Other"
+                            amount="100"/>
+        </personal-auto-claim>
+
+        <personal-auto-claim last-name="Bloggs" loss-date="${todaysdate}:MM/dd/yyyy">
+            <information reported-by="Fred Bloggs"
+                         relation-to-insured="${reportedByType.self}">
+                <contact home-phone=""
+                         mobile-phone=""/>
+            </information>
+            <loss-detail description="Smashed in to a tree to avoid a dog."
+                         cause="${lossCause.objectCollision}"
+                         location="1 Main St., Foster City, CA 94404"
+                         city="Foster City"
+                         fault-rating="${faultRating.noFault}"/>
+            <reserve-detail exposure="(1) 1st Party Vehicle"
+                            cost-type="Claim Cost"
+                            cost-category="Other"
+                            reserve-amount="200"/>
+            <payment-detail category="Other"
+                            amount="100"/>
+        </personal-auto-claim>
+
+    </claim-center>
+</test-data>

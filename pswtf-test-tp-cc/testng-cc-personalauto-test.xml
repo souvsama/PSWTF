@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ClaimCenter Personal Auto Example" verbose="1">
+    <listeners>
+        <listener class-name="com.guidewire.pstesting.Listener"/>
+    </listeners>
+    <parameter name="username" value="aapplegate" />
+    <parameter name="password" value="gw" />
+    <test name="Simple Personal Auto Claim">
+        <classes>
+            <class name="com.guidewire.pstesting.claimcenter.testcase.PersonalAutoClaimFNOLTest"/>
+        </classes>
+    </test>
+</suite>

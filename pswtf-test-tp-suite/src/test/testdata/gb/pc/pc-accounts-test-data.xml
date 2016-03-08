@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <policy-center>
+        <accounts>
+            <account id="personAccount1"
+                     type="person"
+                     country="${country.uk}"
+                     first-name="Sir Thomas"
+                     last-name="Flowers - ${timestamp}"
+                     address1="160 Abbot Road"
+                     city="${city.london}"
+                     postalcode="E4 2LQ"
+                     address-type="${account.addressType.home}"
+                     organization="Foundation Insurance"
+                     producer-code="100-002511"/>
+            <account id="companyAccount1"
+                     type="company"
+                     country="${country.uk}"
+                     company-name="Mishkin’s - ${timestamp}"
+                     address1="25 Catherine Street"
+                     city="${city.london}"
+                     postalcode="WC2B 5JS"
+                     address-type="${account.addressType.business}"
+                     organization="Foundation Insurance"
+                     producer-code="100-002511"/>
+        </accounts>
+    </policy-center>
+</test-data>

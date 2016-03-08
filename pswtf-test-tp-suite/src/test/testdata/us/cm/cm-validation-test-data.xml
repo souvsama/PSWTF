@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <contact-manager>
+        <verify-account all="true"/>
+    </contact-manager>
+</test-data>

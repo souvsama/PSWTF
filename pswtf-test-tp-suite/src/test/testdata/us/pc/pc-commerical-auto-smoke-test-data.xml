@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <policy-center>
+        <business-auto id="businessAutoPolicy1" account-id="companyAccount1">
+            <policy-info organization-type="${organization.type.llc}"/>
+            <coverages product="${businessAuto.policyType.businessAuto}"
+                       fleet="${businessAuto.fleetType.nonFleet}"
+                       liability-limit="15/30/5"/>
+            <drivers>
+                <driver id="driver1"
+                        first-name="Joe"
+                        last-name="Blow"
+                        dob="01/22/1989"
+                        license-number="C0123123"
+                        license-state="${state.california}"/>
+            </drivers>
+            <vehicles>
+                <vehicle garaged-at="1"
+                         type="${businessAuto.vehicleType.passenger}"
+                         vin="2"
+                         cost="25,000"
+                         class-code="0429"/>
+            </vehicles>
+        </business-auto>
+    </policy-center>
+</test-data>

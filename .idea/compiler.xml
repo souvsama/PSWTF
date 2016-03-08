@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-application-ootb-cc" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-application-ootb-cc" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-test-tp-pc" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-test-tp-pc" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-application-ootb-cm" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-application-ootb-cm" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-application-ootb-pc" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-application-ootb-pc" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-test-core" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-test-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-test-tp-core" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-test-tp-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-test-tp-suite" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-test-tp-suite" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-test-tp-bc" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-test-tp-bc" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-application-core" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-application-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-application-tp-cc" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-application-tp-cc" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-test-tp-cc" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-test-tp-cc" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-application-tp-pc" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-application-tp-pc" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-test-tp-cm" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-test-tp-cm" />
+      </profile>
+      <profile default="false" name="Annotation profile for pswtf-application-ootb-bc" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="pswtf-application-ootb-bc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PSWebTestFramework" target="1.7" />
+      <module name="pswtf-application-core" target="1.7" />
+      <module name="pswtf-application-ootb-bc" target="1.7" />
+      <module name="pswtf-application-ootb-cc" target="1.7" />
+      <module name="pswtf-application-ootb-cm" target="1.7" />
+      <module name="pswtf-application-ootb-pc" target="1.7" />
+      <module name="pswtf-application-tp-cc" target="1.7" />
+      <module name="pswtf-application-tp-pc" target="1.7" />
+      <module name="pswtf-test-core" target="1.7" />
+      <module name="pswtf-test-tp-bc" target="1.7" />
+      <module name="pswtf-test-tp-cc" target="1.7" />
+      <module name="pswtf-test-tp-cm" target="1.7" />
+      <module name="pswtf-test-tp-core" target="1.7" />
+      <module name="pswtf-test-tp-pc" target="1.7" />
+      <module name="pswtf-test-tp-suite" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PolicyCenter Example Smoke Test" verbose="1">
+    <listeners>
+        <listener class-name="com.guidewire.pstesting.Listener"/>
+    </listeners>
+    <test name="Smoke Test">
+        <groups>
+            <run>
+                <include name="pc-smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.guidewire.pstesting.policycenter.testcase"/>
+        </packages>
+    </test>
+</suite>

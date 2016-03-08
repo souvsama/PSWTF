@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="su" password="gw"/>
+    <claim-center>
+        <!--
+        <homeowners-claim policy-id=""
+                          policy-number="53-235675"
+                          loss-date="02/12/2015">
+            <information reported-by="Ken Darion"
+                         relation-to-insured="${reportedByType.self}"/>
+            <loss-detail description="I got drunk and burned my house down"
+                         cause="${lossCause.fire}"
+                         city="${city.fosterCity}"/>
+        </homeowners-claim>
+         -->
+        <homeowners-claim policy-id=""
+                          policy-number="53-235675"
+                          loss-date="02/10/2015">
+            <information reported-by="Ken Darion"
+                         relation-to-insured="${reportedByType.self}"/>
+            <loss-detail description="It just burned down!"
+                         cause="${lossCause.fire}"
+                         city="${city.fosterCity}"/>
+        </homeowners-claim>
+        <!--
+        <homeowners-claim policy-id=""
+                          policy-number="53-300675"
+                          loss-date="02/07/2015">
+            <information reported-by="John Albertson"
+                         relation-to-insured="${reportedByType.self}"/>
+            <loss-detail description="Our dog was cold and started a fire."
+                         cause="${lossCause.fire}"
+                         city="${city.fosterCity}"/>
+        </homeowners-claim>
+        -->
+        <homeowners-claim policy-id=""
+                          policy-number="53-300675"
+                          loss-date="01/10/2015">
+            <information reported-by="John Albertson"
+                         relation-to-insured="${reportedByType.self}"/>
+            <loss-detail description="Harmless college prank gone bad."
+                         cause="${lossCause.fire}"
+                         city="${city.fosterCity}"/>
+        </homeowners-claim>
+
+    </claim-center>
+</test-data>

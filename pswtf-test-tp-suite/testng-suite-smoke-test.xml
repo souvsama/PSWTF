@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Insurance Suite" verbose="1">
+    <test name="Suite Smoke Test">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.guidewire.pstesting.policycenter.testcase"/>
+            <package name="com.guidewire.pstesting.billingcenter.testcase"/>
+            <package name="com.guidewire.pstesting.contactmanager.testcase"/>
+            <package name="com.guidewire.pstesting.claimcenter.testcase"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="sstone" password="gw"/>
+    <policy-center>
+        <domestic-property id="domeuPolicy1" account-id="personAccount1">
+            <qualifications policy-type="${domeu.policyType.buildings}"/>
+            <offering name="${domeu.offering.buildingStandard}"/>
+            <dwelling-details
+                    year-build="1995"
+                    residence-type="${domeu.residenceType.houseDetached}"
+                    listed-building="${domeu.listedBuildingType.notListed}"
+                    roof-construction="${domeu.roofType.tiles}"
+                    wall-construction="${domeu.wallConstructionType.concrete}"
+                    dwelling-type="${domeu.dwellingType.main}"
+                    estimated-rebuild-cost="5,000"/>
+            <coverages>
+                <dwelling sum-insured="25,000"/>
+            </coverages>
+        </domestic-property>
+    </policy-center>
+</test-data>

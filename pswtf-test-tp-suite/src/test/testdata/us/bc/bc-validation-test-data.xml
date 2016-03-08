@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="aapplegate" password="gw"/>
+    <billing-center>
+        <verify-account account-number="Standard Account" type="Insured"/>
+        <!--
+        <retry try-for="5m" wait-between-tries="5s"/>
+        <verify-account all="true"/>
+        <verify-policy all="true"/>
+        <verify-policy policy-number="377653224-1"/>
+        -->
+    </billing-center>
+</test-data>

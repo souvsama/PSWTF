@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<test-data>
+    <user username="su" password="gw"/>
+    <claim-center>
+        <business-auto-claim policy-id=""
+                             policy-number="7452999564"
+                             loss-date="${todaysdate}:MM/dd/yyyy">
+            <information involved-vehicle="Prius"
+                         reported-by="Joe Blow"
+                         relation-to-insured="${reportedByType.employee}"/>
+            <loss-detail
+                    description="I got drunk and smashed in to a tree! But I'm sure my boss will pay for any damage I have caused."
+                    cause="Collision with fixed object"
+                    location="123 Unicorn Way, Foster City, CA 94404"
+                    city="${city.fosterCity}"/>
+        </business-auto-claim>
+    </claim-center>
+</test-data>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-application-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-application-ootb-bc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-application-ootb-cc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-application-ootb-cm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-application-ootb-pc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-application-tp-cc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-application-tp-pc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-test-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-test-tp-bc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-test-tp-cc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-test-tp-cm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-test-tp-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-test-tp-pc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pswtf-test-tp-suite" charset="UTF-8" />
+  </component>
+</project>
